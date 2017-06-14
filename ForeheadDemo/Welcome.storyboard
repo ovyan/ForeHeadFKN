@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="a4g-t9-xoc">
+    <device id="retina4_0" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome-->
+        <scene sceneID="F54-e2-ckw">
+            <objects>
+                <viewController id="a4g-t9-xoc" customClass="Welcome" customModule="ForeheadDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kDV-ah-nUs"/>
+                        <viewControllerLayoutGuide type="bottom" id="I0W-ac-hHl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IdG-Un-sfh">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6N-6r-fMz">
+                                <rect key="frame" x="0.0" y="205" width="568" height="30"/>
+                                <state key="normal" title="Settings"/>
+                                <connections>
+                                    <action selector="settingsButtonDidTap:" destination="a4g-t9-xoc" eventType="touchUpInside" id="qNh-Ft-Qoc"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qli-eA-3c4">
+                                <rect key="frame" x="0.0" y="20" width="568" height="100"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJM-EC-AKT">
+                                <rect key="frame" x="0.0" y="138" width="568" height="30"/>
+                                <state key="normal" title="Categories"/>
+                                <connections>
+                                    <action selector="categoriesButtonDidTap:" destination="a4g-t9-xoc" eventType="touchUpInside" id="gDp-7a-Tw0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Qli-eA-3c4" firstAttribute="leading" secondItem="pJM-EC-AKT" secondAttribute="leading" id="1Ai-SE-aAK"/>
+                            <constraint firstAttribute="trailing" secondItem="Qli-eA-3c4" secondAttribute="trailing" id="266-65-ERJ"/>
+                            <constraint firstItem="pJM-EC-AKT" firstAttribute="trailing" secondItem="c6N-6r-fMz" secondAttribute="trailing" id="NVx-05-xJS"/>
+                            <constraint firstItem="Qli-eA-3c4" firstAttribute="leading" secondItem="IdG-Un-sfh" secondAttribute="leading" id="PrU-bk-ftA"/>
+                            <constraint firstItem="I0W-ac-hHl" firstAttribute="top" secondItem="c6N-6r-fMz" secondAttribute="bottom" constant="85" id="Rjd-E5-jKC"/>
+                            <constraint firstItem="Qli-eA-3c4" firstAttribute="trailing" secondItem="pJM-EC-AKT" secondAttribute="trailing" id="WlC-kw-liU"/>
+                            <constraint firstItem="c6N-6r-fMz" firstAttribute="top" secondItem="pJM-EC-AKT" secondAttribute="bottom" constant="37" id="d6H-92-fYE"/>
+                            <constraint firstItem="pJM-EC-AKT" firstAttribute="top" secondItem="Qli-eA-3c4" secondAttribute="bottom" constant="18" id="e71-Sm-5xW"/>
+                            <constraint firstItem="Qli-eA-3c4" firstAttribute="top" secondItem="kDV-ah-nUs" secondAttribute="bottom" id="ekd-au-SI6"/>
+                            <constraint firstItem="pJM-EC-AKT" firstAttribute="leading" secondItem="c6N-6r-fMz" secondAttribute="leading" id="jS8-cq-wE3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="categoriesBtn" destination="pJM-EC-AKT" id="sVw-oo-HSY"/>
+                        <outlet property="logoImgV" destination="Qli-eA-3c4" id="m2t-BQ-Jcz"/>
+                        <outlet property="settingsBtn" destination="c6N-6r-fMz" id="S0G-S1-adl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="scD-iK-JLL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="94.002998500749626" y="136.80000000000001"/>
+        </scene>
+    </scenes>
+</document>
