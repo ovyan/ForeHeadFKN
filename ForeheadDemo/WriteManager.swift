@@ -1,11 +1,3 @@
-//
-//  WriteManager.swift
-//  ForeheadDemo
-//
-//  Created by Евгений on 12.11.16.
-//  Copyright © 2016 Mike Ovyan. All rights reserved.
-//
-
 import UIKit
 
 open class WriteManager: NSObject {
