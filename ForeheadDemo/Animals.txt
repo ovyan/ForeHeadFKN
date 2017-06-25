@@ -75,7 +75,6 @@ Starfish
 Swan
 Tiger
 Turkey
-Turtle
 Wasp
 Yak
 Zebra
