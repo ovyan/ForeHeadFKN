@@ -1,11 +1,3 @@
-//
-//  Categories.swift
-//  ForeheadDemo
-//
-//  Created by Евгений on 03.11.16.
-//  Copyright © 2016 Mike Ovyan. All rights reserved.
-//
-
 import UIKit
 import AVFoundation
 
