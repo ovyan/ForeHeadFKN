@@ -1,11 +1,3 @@
-//
-//  Words.swift
-//  ForeheadDemo
-//
-//  Created by Евгений on 11.11.16.
-//  Copyright © 2016 Mike Ovyan. All rights reserved.
-//
-
 import UIKit
 
 class Words: UIViewController, UITableViewDelegate, UITableViewDataSource {
