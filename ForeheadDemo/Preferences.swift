@@ -1,11 +1,3 @@
-//
-//  Preferences.swift
-//  ForeheadDemo
-//
-//  Created by Евгений on 04.11.16.
-//  Copyright © 2016 Mike Ovyan. All rights reserved.
-//
-
 import UIKit
 
 open class Preferences: NSObject {
