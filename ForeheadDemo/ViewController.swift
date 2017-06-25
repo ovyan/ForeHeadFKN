@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  ForeheadDemo
-//
-//  Created by Mike Ovyan on 31/10/2016.
-//  Copyright © 2016 Mike Ovyan. All rights reserved.
-//
-
 import UIKit
 import CoreMotion
 
